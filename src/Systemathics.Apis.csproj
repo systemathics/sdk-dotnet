@@ -74,15 +74,15 @@
 
     <!-- build -->
 	<ItemGroup>
-		<PackageReference Include="Grpc.Net.Client" Version="2.65.0" />
-		<PackageReference Include="Google.Api.CommonProtos" Version="2.15.0" />
-		<PackageReference Include="Google.Protobuf" Version="3.28.0" />
-		<PackageReference Include="Grpc.Tools" Version="2.65.0 ">
+		<PackageReference Include="Grpc.Net.Client" Version="2.71.0" />
+		<PackageReference Include="Google.Api.CommonProtos" Version="2.17.0" />
+		<PackageReference Include="Google.Protobuf" Version="3.32.1" />
+		<PackageReference Include="Grpc.Tools" Version="2.71.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
-		<PackageReference Include="System.Text.Json" Version="8.0.4" />
+		<PackageReference Include="System.Text.Json" Version="9.0.9" />
 	</ItemGroup>
 	<ItemGroup>
 		<Protobuf Include="systemathics\apis\services\**\*.proto" GrpcServices="Client" />
